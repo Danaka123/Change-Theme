@@ -1,0 +1,31 @@
+body {
+  background: #222;
+}
+
+.page-title {
+  color: #fff;
+}
+
+.card {
+  background: #222;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.card .title {
+  color: #fff;
+}
+
+.card .text {
+  color: #fff;
+}
+.theme {
+  background: #222;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.change-theme[data-theme="dark"] {
+  display: none;
+}
+.change-theme[data-theme="light"] {
+  display: block;
+}
